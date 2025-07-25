@@ -47,7 +47,7 @@ title: ${args[0]}
 published: ${getDate()}
 description: ''
 image: ''
-tags: []
+tags: [yapping]
 category: ''
 draft: false 
 lang: ''
