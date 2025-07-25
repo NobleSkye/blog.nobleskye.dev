@@ -1,5 +1,5 @@
 ---
-title: Skye Network Release 2025-06-18
+title: Skye Network Release
 published: 2025-06-18
 description: 'SkyeNetwork First Post'
 image: './Skyemc-Logo.png'
