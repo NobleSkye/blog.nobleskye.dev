@@ -3,7 +3,7 @@ title: About Me
 published: 2007-04-26
 description: 'A "Short" introduction about me'
 image: ''
-tags: [Aboutme, Blog,]
+tags: [yapping, Blog,]
 category: 'Personal'
 draft: false 
 lang: 'en'
