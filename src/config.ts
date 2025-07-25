@@ -74,6 +74,16 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:github",
 			url: "https://github.com/NobleSkye",
 		},
+		{
+			name: "Discord",
+			icon: "fa6-brands:discord",
+			url: "https://discordapp.com/users/1027043750721105971",
+		},
+		{
+			name: "Email",
+			icon: "fa6-solid:envelope",
+			url: "mailto:github@contact.nobleskye.dev",
+		}
 	],
 };
 
