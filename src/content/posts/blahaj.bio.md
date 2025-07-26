@@ -3,7 +3,7 @@ title: blahaj.bio
 published: 2025-04-16
 description: 'Building a clean, modern bio creation website with accessibility in mind'
 image: ''
-tags: [project, web-development, accessibility, javascript]
+tags: [yapping, project, web-development]
 category: 'projects'
 draft: false
 lang: 'en'
@@ -12,9 +12,9 @@ lang: 'en'
 ::github{repo="nobleskye/blahaj.bio"}
 ---
 
-# Prologue of Blahaj.bio
+# Prologue of blahaj.bio
 
-I own a lot of domain names - probably more than I should admit - and [blahaj.bio](https://blahaj.bio) is one of the ones I recently decided to actually put to good use. The domain name itself was too perfect to pass up: Blahaj.bio ends with `.bio` as the TLD, so creating a bio creation website felt like the most natural fit. It's a simple concept, but I hadn't tackled a project quite like this before, so I thought it would be a fun challenge to dive into.
+I own a lot of domain names - probably more than I should admit - and [pronouns.site](https://pronouns.site) is one of the ones I recently decided to actually put to good use. The domain name itself was too perfect to pass up: Pronouns.site ends with `.site` as the TLD, so creating a pronouns information website felt like the most natural fit. It's a simple concept, but I hadn't tackled a project quite like this before, so I thought it would be a fun challenge to dive into.
 
 The goal was straightforward: create a simple, clean bio creation website that anyone could use to build their own personal bio page. But I had a specific audience in mind - primarily people in the LGBTQ+ community. This demographic tends to be more interested in creating personalized bio pages for social media profiles, Discord servers, and other online spaces where self-expression matters. Plus, they're the ones most likely to recognize and appreciate Blähaj, the adorable shark plushie from IKEA that has somehow become an unofficial mascot for trans and queer communities.
 
