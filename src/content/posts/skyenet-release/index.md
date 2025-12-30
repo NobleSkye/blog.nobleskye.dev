@@ -67,11 +67,10 @@ Let the journey begin.
 
 **Welcome to SkyeNetwork - it's only up from here.**
 
-[donate]: https://paypal.me/skyenetworkmc/
+[donate]: https://donate.skyemc.net/
 [discord]: https://discord.gg/skyemc
 [github]: https://github.com/skyenetmc
 [website]:   https://skyemc.net/
 [wiki]: https://wiki.skyemc.net/
 [socialmedia]: https://blahaj.bio/SkyeNetwork
-[earth-map]: https://map.skyemc.net/
 [store]: https://store.skyemc.net/
