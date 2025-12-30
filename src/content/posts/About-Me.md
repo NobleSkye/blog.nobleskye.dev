@@ -46,6 +46,9 @@ Here are some of the projects you’ll find in my repository:
 4. **[LegitiDevs](https://legiti.dev)**  
    An amazing developer community I’m part of. We’ve built a powerful [API](https://legiti.dev/api) for scraping worlds from another Minecraft server, [legitimoose.com](https://store.legitimoose.com).
 
+5. **[Pyrodactyl](https://github.com/pyrodactyl-oss/pyrodactyl)**
+   A fork of pterodactyl that is rebuilt for security & performance and accessablity as well as new features. & [Pyro](pyrp.host/?a=3)
+
 ## Support Me
 
 - If you find my work helpful or inspiring, consider [buying me a coffee](https://ko-fi.com/SkyeNetMC) ☕️  
