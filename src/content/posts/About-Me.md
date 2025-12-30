@@ -21,10 +21,10 @@ I hold several CompTIA certifications, including [ITF+](https://www.comptia.org/
 ## Quick Facts About Me
 
 - 🎂 **Birthday:** April 26, 2007
-- 🏳️‍⚧️ **Gender:** Transfem  
+- 🏳️‍⚧️ **Gender:** Transfem  (women) 
 - 💬 **Pronouns:** She/her  
 - 🌐 **Location:** United States  
-- 💻 **Occupation:** Developer, Content Creator, Student  
+- 💻 **Occupation:** Developer, Content Creator, Lifeguard  
 - 🎮 **Hobbies:** Coding, Minecraft, modding, building communities  
 - 📜 **Certifications:** CompTIA ITF+, Tech+, Security+
 
