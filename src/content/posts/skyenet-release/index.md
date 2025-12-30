@@ -53,7 +53,6 @@ Now that SkyeNetwork is live, it's time to **expand and evolve**. Expect:
 - **Wiki**: [Explore our Wiki][wiki] for guides, tutorials, and server information.
 - **Social Media**: Follow us on [social media][socialmedia] for the latest news and updates.
 - **Store**: Check out our [store][store] for cosmetics, ranks, and more to support the network.
-- **Earth Map**: Explore the [Earth Map][earth-map] to see the world in Minecraft.
 - **Feedback**: We value your input! Share your thoughts and suggestions in our Discord or on GitHub.
 
 ## Support SkyeNetwork
