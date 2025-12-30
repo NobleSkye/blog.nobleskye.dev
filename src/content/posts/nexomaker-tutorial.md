@@ -40,7 +40,7 @@ Open NexoMaker and log in. Click on "New Project" to create a new project. Choos
 
 As CraftEngine **does not** have **offical support**. However you can still use craftengine by first creating a project and going to the NexoMaker Marketplace and get the craftengine extension that adds craftengine support. Then adding craftengine as a plugin in the server environment settings.
 
-> **Note** Some features may not work as expected due to the lack of offical support. The extention is opensource so if you find any issues you can report them on the [GitHub repo](https://github.com/user/repo) Or make pull requests to fix them yourself if you know how to code.
+> **Note** Some features may not work as expected due to the lack of offical support. The extention is opensource so if you find any issues you can report them on the [GitHub repo](https://github.com/dodi2020/NM-CraftEngine-Expansion) Or make pull requests to fix them yourself if you know how to code.
 
 </details>
 
