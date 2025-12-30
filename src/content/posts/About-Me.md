@@ -49,7 +49,7 @@ Here are some of the projects you’ll find in my repository:
 ## Support Me
 
 - If you find my work helpful or inspiring, consider [buying me a coffee](https://ko-fi.com/SkyeNetMC) ☕️  
-- Or, if you’d rather not use Ko-Fi, you can also donate via [PayPal](https://paypal.me/SkyeNetworkMC)
+- Or, if you’d rather not use Ko-Fi, you can also donate via [Stripe (Donations)](https://donate.skyemc.net)
 
 :::tip
 If you want to support a specific project, please mention it in the donation message.
