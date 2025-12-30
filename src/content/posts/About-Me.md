@@ -20,7 +20,7 @@ I hold several CompTIA certifications, including [ITF+](https://www.comptia.org/
 
 ## Quick Facts About Me
 
-- 🎂 **Birthday:** April 26, 2007
+- 🎂 **Birthday:** April 26
 - 🏳️‍⚧️ **Gender:** Transfem  (women) 
 - 💬 **Pronouns:** She/her  
 - 🌐 **Location:** United States  
