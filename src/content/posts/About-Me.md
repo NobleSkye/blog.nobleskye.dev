@@ -21,7 +21,6 @@ I hold several CompTIA certifications, including [ITF+](https://www.comptia.org/
 ## Quick Facts About Me
 
 - 🎂 **Birthday:** April 26
-- 🏳️‍⚧️ **Gender:** Transfem  (women) 
 - 💬 **Pronouns:** She/her  
 - 🌐 **Location:** United States  
 - 💻 **Occupation:** Developer, Content Creator, Lifeguard  
@@ -37,21 +36,18 @@ Here are some of the projects you’ll find in my repository:
 1. **[SkyeNetwork](https://www.skyemc.net)**  
    A Minecraft server that combines a bunch of things I love from other servers — Survival, Hardcore, MiniGames, and more!
 
-2. **[Blahaj.bio](https://blahaj.bio/new)**  
-   A bio creation website that lets you make your own page using Markdown and GitHub Actions.
-
-3. **[Pronouns.site](https://pronouns.site/pronouns)**  
+2. **[Pronouns.site](https://pronouns.site/pronouns)**  
    A simple website listing all pronouns and how to use them. Embeds show basic usage for platforms like Discord.
 
-4. **[LegitiDevs](https://legiti.dev)**  
+3. **[LegitiDevs](https://legiti.dev)**  
    An amazing developer community I’m part of. We’ve built a powerful [API](https://legiti.dev/api) for scraping worlds from another Minecraft server, [legitimoose.com](https://store.legitimoose.com).
 
-5. **[Pyrodactyl](https://github.com/pyrodactyl-oss/pyrodactyl)**
-   A fork of pterodactyl that is rebuilt for security & performance and accessablity as well as new features. & [Pyro](pyrp.host/?a=3)
+4. **[Hydrodactyl](https://github.com/blueprint-framework/hydrodactyl)**
+   A maintained vrsion of pterodactyl that is rebuilt for security & performance and accessablity as well as new features.
 
 ## Support Me
 
-- If you find my work helpful or inspiring, consider [buying me a coffee](https://ko-fi.com/SkyeNetMC) ☕️  
+- If you find my work helpful or inspiring, consider [buying me a coffee](https://ko-fi.com/prettyskye) ☕️  
 - Or, if you’d rather not use Ko-Fi, you can also donate via [Stripe (Donations)](https://donate.skyemc.net)
 
 :::tip
@@ -60,11 +56,11 @@ If you want to support a specific project, please mention it in the donation mes
 
 ## Acknowledgements
 
-- Huge thanks to all the amazing open-source contributors and communities out there — your work inspires me every day 💖
+- Huge thanks to all the amazing open-source contributors and communities out there - your work inspires me every day 💖
 
 ## Get in Touch
 
-- 📫 [Email](mailto:github@contact.nobleskye.dev) or [Discord](https://discord.com/PrettySkye)  
+- 📫 [Email](mailto:me@contact.nobleskye.dev) or [Discord](https://discord.com/PrettySkye)  
 - 😄 Pronouns: she/her
 
 ## License
