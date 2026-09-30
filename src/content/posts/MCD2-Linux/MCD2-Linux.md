@@ -35,3 +35,37 @@ bash <(curl -fsSL https://blog.nobleskye.dev/scripts/mcd2-steamdeck.sh)
 ```
 
 after running make sure to restart steam and then change the proton verson to be GDK-proton
+
+## options
+
+**default** - installs GDK-Proton and swaps in a working `XCurl.dll` (the original gets backed up as `XCurl.dll.bak`)
+
+```sh
+bash <(curl -fsSL https://blog.nobleskye.dev/scripts/mcd2-steamdeck.sh)
+```
+
+**`--alextibtab`** - uses [Alextibtab's fix](https://github.com/Alextibtab/Dungeons2_linux_fix) instead, then signs you in to microsoft (enter the code it shows at microsoft.com/link)
+
+```sh
+bash <(curl -fsSL https://blog.nobleskye.dev/scripts/mcd2-steamdeck.sh) --alextibtab
+```
+
+**`--xauth`** - only signs in to microsoft again, for when the `--alextibtab` login runs out
+
+```sh
+bash <(curl -fsSL https://blog.nobleskye.dev/scripts/mcd2-steamdeck.sh) --xauth
+```
+
+**`--dry-run`** - shows what it would do without changing anything (works with `--alextibtab` too)
+
+```sh
+bash <(curl -fsSL https://blog.nobleskye.dev/scripts/mcd2-steamdeck.sh) --dry-run
+```
+
+with `--alextibtab` you also need to set this as the game's launch options in steam (Properties > General), and set Compatibility to Proton Experimental or Proton-GE:
+
+```
+WINEDLLOVERRIDES="xgameruntime=n" %command%
+```
+
+running the script again is fine, it just reinstalls and keeps the original dll backup
