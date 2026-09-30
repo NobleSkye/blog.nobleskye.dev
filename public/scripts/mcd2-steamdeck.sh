@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
 # Minecraft Dungeons II - Steam Deck / Linux setup
 #
-#   curl -fsSL https://blog.nobleskye.dev/scripts/mcd2-steamdeck.sh | bash
+#   bash <(curl -fsSL https://blog.nobleskye.dev/scripts/mcd2-steamdeck.sh)
 #
 # Default: installs GDK-Proton and swaps in a working XCurl.dll (original backed up).
 # Then in Steam: Properties > Compatibility > GE-Proton11-7-x86_64, restart Steam.
 #
-# Options (pass after `bash -s --`):
+# Options (add after the closing bracket):
 #   --alextibtab   use github.com/Alextibtab/Dungeons2_linux_fix instead
-#                  (needs a Microsoft sign-in + a launch option, see the end of the output)
+#                  (signs in to Microsoft during install, then needs a launch option)
+#   --xauth        only sign in to Microsoft again (after --alextibtab was already installed)
 #   --dry-run      only print what would be done
 #
-#   curl -fsSL https://blog.nobleskye.dev/scripts/mcd2-steamdeck.sh | bash -s -- --dry-run
+#   bash <(curl -fsSL https://blog.nobleskye.dev/scripts/mcd2-steamdeck.sh) --dry-run
 
 set -euo pipefail
 
@@ -31,6 +32,7 @@ DRY_RUN=0
 for arg in "$@"; do
     case "$arg" in
         --alextibtab) METHOD=alextibtab ;;
+        --xauth)      METHOD=xauth ;;
         --dry-run)    DRY_RUN=1 ;;
         *) echo "Unknown option: $arg" >&2; exit 1 ;;
     esac
@@ -46,6 +48,15 @@ run() {
 for tool in curl tar python3; do
     command -v "$tool" >/dev/null || die "$tool is required"
 done
+
+XAUTH=("$FIX_DIR/.venv/bin/python3" "$FIX_DIR/xauth.py")
+
+if [[ $METHOD == xauth ]]; then
+    [[ -x "${XAUTH[0]}" ]] || die "Alextibtab's fix isn't installed. Run the script with --alextibtab first."
+    info "Signing in to Microsoft: enter the code shown at microsoft.com/link"
+    run "${XAUTH[@]}" --force
+    exit 0
+fi
 
 tmp=$(mktemp -d)
 trap 'rm -rf "$tmp"' EXIT
@@ -78,14 +89,19 @@ if [[ $METHOD == alextibtab ]]; then
     fi
     command -v unzip >/dev/null || die "unzip is required by the fix's install.sh"
     run env STEAM_ROOT="$STEAM_ROOT" sh "$FIX_DIR/install.sh"
+
+    # The DLL reads the Xbox login this saves, so the game can't sign in without it
+    info "Signing in to Microsoft: enter the code shown at microsoft.com/link"
+    run "${XAUTH[@]}"
     cat <<EOF
 
-$(printf '\033[1;32mDone!\033[0m') Three things left:
-  1. Sign in once (opens microsoft.com/link, enter the code shown):
-       $FIX_DIR/.venv/bin/python3 $FIX_DIR/xauth.py
-  2. In Steam: Minecraft Dungeons II > Properties > General > Launch Options:
+$(printf '\033[1;32mDone!\033[0m') Now in Steam:
+  1. Minecraft Dungeons II > Properties > General > Launch Options:
        WINEDLLOVERRIDES="xgameruntime=n" %command%
-  3. Properties > Compatibility > Proton Experimental (or Proton-GE)
+  2. Properties > Compatibility > Proton Experimental (or Proton-GE)
+
+If the game stops signing in later, sign in again with:
+  bash <(curl -fsSL https://blog.nobleskye.dev/scripts/mcd2-steamdeck.sh) --xauth
 EOF
     exit 0
 fi

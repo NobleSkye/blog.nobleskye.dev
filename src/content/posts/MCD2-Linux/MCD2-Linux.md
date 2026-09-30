@@ -31,7 +31,7 @@ SCRIPT IS HARD CODED WITH URLS AND FILE LOCATIONS WORKS AFTER DIRECT GAME RELEAS
 the script can be found at: [blog.nobleskye.dev/scripts/mcd2-steamdeck.sh](https://blog.nobleskye.dev/scripts/mcd2-steamdeck.sh) or can be ran by opening Konsole in desktop mode and running:
 
 ```sh
-curl -fsSL https://blog.nobleskye.dev/scripts/mcd2-steamdeck.sh | bash
+bash <(curl -fsSL https://blog.nobleskye.dev/scripts/mcd2-steamdeck.sh)
 ```
 
 after running make sure to restart steam and then change the proton verson to be GDK-proton
