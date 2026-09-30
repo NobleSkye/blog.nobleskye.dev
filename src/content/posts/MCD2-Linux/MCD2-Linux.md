@@ -26,3 +26,5 @@ the script can be found at: [blog.nobleskye.dev/scripts/mcd2-steamdeck.sh](https
 ```sh
 curl -fsSL https://blog.nobleskye.dev/scripts/mcd2-steamdeck.sh | bash
 ```
+
+after running make sure to restart steam and then change the proton verson to be GE-proton
